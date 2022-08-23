@@ -1,0 +1,18 @@
+
+@media (max-width: 1920px) {
+.navigation-wrapper {
+    flex-wrap: wrap;
+    }
+.container {
+    width: 80%;
+    }
+.navigation {
+    display: block;
+    }
+.burger-bar {
+    display: none;
+    }
+}
+
+
+
