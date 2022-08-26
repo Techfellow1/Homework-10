@@ -195,7 +195,7 @@
 /* section 4 */
 
 .pricing-sec {
-    max-width: 1465px;
+    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 }
@@ -276,7 +276,8 @@
 .act-button {
     max-width: 164px;
     width: 100%;
-    height: 40px;
+    height: 68px;
+    border-color: transparent;
     background-color: #FFAA00;
     font-size: 14px;
     font-weight: 300;
