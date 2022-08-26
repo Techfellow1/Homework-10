@@ -1,18 +1,107 @@
 
 @media (max-width: 1920px) {
-.navigation-wrapper {
-    flex-wrap: wrap;
+    .navigation-wrapper {
+        flex-wrap: wrap;
+        }
+    .container {
+        width: 100%;
+        }
+    .navigation {
+        display: block;
+        }
+    .burger-bar {
+        display: none;
+        }
     }
-.container {
-    width: 80%;
-    }
-.navigation {
-    display: block;
-    }
-.burger-bar {
-    display: none;
-    }
+
+    
+
+    @media (max-width: 1024px) {
+    .navigation {
+        display: block;
+        }
+    .block-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+    .page1-title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 20px;
+        }
+.page1-subtitle {
+    display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 20px;
+}
+.pg2-title1 {
+    display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+        line-height: 45px;
+}
+.pg2-title2 {
+    display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+        line-height: 45px;
 }
 
+    .adv-title {
+        margin-right: 100px;
+        }
+        .image-box:nth-child:(1)(2),(3),(4),(5),(6) {
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+         }
+    .act-menu-button {
+        flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+    }
+    
+@media (max-width: 768px) {
 
+.food ul {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.waiter-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.adv-title h2 p {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    }
 
+}
+    .burger-bar {
+        display: block;
+        }
+.image-box:nth-child:(1),(2),(3),(4),(5),(6) {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+     }
+     .act-menu-button {
+        flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+    }
+}
+    
+ 
+    
+    
