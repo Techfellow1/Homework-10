@@ -94,15 +94,15 @@
     display: block;
 }
 .image-box img h3 p button {
-    
     justify-content: center;
     width: 100%;
     margin: 0 auto;
 }
-.section-title-box img h2 hr p {
+.section-wrapper  {
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 0 auto;
 }
 }
