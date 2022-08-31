@@ -40,10 +40,8 @@
   justify-content: space-between;
 }
 .burger-bar {
-  display: block;
-  font-size: 25px;
-  margin: 5px auto;
-  color: #fff;
+    display: flex;
+    color: #fff;
 }
 .nav-item {
   font-family: 'poppins', sans-serif;
